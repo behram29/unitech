@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: ${ACTIVE_PROFILE:dev}
+    include:
+      - db
+      - redis
+jwt:
+  privateKey: c2Fkb2lhbnNpb2R1YXNpZnVhc2JuaWZ1aGFzaXVmYXNpYm5mamlzYWY=
+  publicKey: ZGJmd2JhZGZqc2JkNTQ1NDVzaGRianNoYmRq
+
+
